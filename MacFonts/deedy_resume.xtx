@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Deedy - One Page Two Column Resume
 % LaTeX Template
-% Version 1.2 (16/9/2014)
+% Version 1.1 (30/4/2014)
 %
 % Original author:
 % Debarghya Das (http://debarghyadas.com)
@@ -44,14 +44,9 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\documentclass[]{deedy-resume-openfont}
 
-\documentclass[]{deedy-resume}
-\usepackage{fancyhdr}
- 
-\pagestyle{fancy}
-\fancyhf{}
- 
-\rfoot{Page \thepage \hspace{1pt}}
+
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -66,8 +61,10 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Debarghya}{Das}{ \urlstyle{same}\href{http://debarghyadas.com}{debarghyadas.com}| \href{http://fb.co/dd}{fb.co/dd}\\
-\href{mailto:deedy@fb.com}{deedy@fb.com} | 607.379.5733 | \href{mailto:dd367@cornell.edu}{dd367@cornell.edu}
+
+
+\namesection{Ray}{Sy}{ \urlstyle{same}\url{https://fireteam99.github.io/} \\
+\href{mailto:raymancheungsy@gmail.com}{raymancheungsy@gmail.com} | 732-325-8389
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -84,60 +81,52 @@
 
 \section{Education} 
 
-\subsection{Cornell University}
-\descript{MEng in Computer Science}
-\location{Dec 2014 | Ithaca, NY}
+\subsection{Rutgers University}
+\descript{B.S. in Computer Science}
+\location{Expected May 2021 | New Brunswick, NJ \\ Deans List | 2018 - Present}
 \sectionsep
 
-\subsection{Cornell University}
-\descript{BS in Computer Science}
-\location{May 2014 | Ithaca, NY}
-College of Engineering \\
-Magna Cum Laude\\
-\location{ Cum. GPA: 3.83 / 4.0 \\
-Major GPA: 3.9 / 4.0}
-\sectionsep
-
-\subsection{La Martiniere for Boys}
-\location{Grad. May 2011|  Kolkata, India}
-\sectionsep
+% \subsection{La Martiniere for Boys}
+% \location{Grad. May 2011|  Kolkata, India}
+% \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links} 
-Facebook:// \href{https://facebook/dd}{\bf dd} \\
-Github:// \href{https://github.com/deedydas}{\bf deedydas} \\
-LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\bf debarghyadas} \\
-YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
-Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
-Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
+Github:// \href{https://github.com/fireteam99}{\custombold{fireteam99}} \\
+% LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\custombold{debarghyadas}} \\
+% YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\custombold{DeedyDash007}} \\
+Twitter://  \href{https://twitter.com/rs1gh?lang=en}{\custombold{@rs1gh}} \\
+Devpost:// \href{https://devpost.com/fireteam}{\custombold{fireteam}} \\
+Soundcloud:// \href{https://soundcloud.com/user-172386312}{\custombold{ps1 \textunderscore storm}} \\
+% Soundcloud:// \href{https://soundcloud.com/user-172386312}{\custombold{ps1_storm}} \\
+% Quora://  \href{https://www.quora.com/Debarghya-Das}{\custombold{Debarghya-Das}}
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Coursework}
-\subsection{Graduate}
-Advanced Machine Learning \\
-Open Source Software Engineering \\
-Advanced Interactive Graphics \\
-Compilers + Practicum \\
-Cloud Computing \\
-Evolutionary Computation \\
-Defending Computer Networks \\
-Machine Learning \\
+\subsection{Undergraduate}
+Computer Architecture \\
+Discrete Structures \\
+Data Structures \\
+Linear Algebra \\
+Intro to Computer Science \\
+% {\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst) }}} \\
 \sectionsep
 
-\subsection{Undergraduate}
-Information Retrieval \\
-Operating Systems \\
-Artificial Intelligence + Practicum \\
-Functional Programming \\
-Computer Graphics + Practicum \\
-{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
-Unix Tools and Scripting \\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     ACTIVITIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Activities}
+\subsection{Clubs}
+USACS \\
+Fizzbuzz \\
+RUMAD
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
@@ -145,13 +134,21 @@ Unix Tools and Scripting \\
 
 \section{Skills}
 \subsection{Programming}
-\location{Over 5000 lines:}
-Java \textbullet{}   Shell \textbullet{} Python \textbullet{} Javascript \\
-OCaml \textbullet{} Matlab \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
-\location{Over 1000 lines:}
-C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
+\location{Strong:}
+Java \textbullet{}  Python \textbullet{} JavaScript \textbullet{} HTML \\
+CSS \textbullet{} Shell \textbullet{} \LaTeX\ \\ 
 \location{Familiar:}
-AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+C \textbullet{} C++ \textbullet{} SQL \textbullet{} C\# \\
+\location{Frameworks:}
+React \textbullet{} iOS \textbullet{} Android \textbullet{} PostgreSQL \\
+MongoDB \textbullet{} Mapbox \textbullet{} Git
+\sectionsep
+\subsection{Soft}
+Strong organization, leadership and communication skills. \textbullet{} Solid work ethic and creative thinker.
+\sectionsep
+\subsection{Design}
+Sketch \textbullet{} Photoshop \textbullet{} Illustrator \\ 
+AfterEffects
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -169,76 +166,108 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
-\runsubsection{Facebook}
-\descript{| Software Engineer }
-\location{Jan 2015 - Present | New York, NY}
-\sectionsep
 
-\runsubsection{Coursera}
-\descript{| KPCB Fellow + Software Engineering Intern }
-\location{June 2014 – Sep 2014 | Mountain View, CA}
+\runsubsection{Heatwav}
+\descript{| Full Stack Mobile Developer }
+\location{August 2018 - Present | New York, NY}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
-\item Led and shipped Yoda - the admin interface for the new Phoenix platform. 
-\item Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade, Stylus and Require and Scala using Play
+\begin{tightemize}
+\item Responsible for managing MongoDB database where music and user information is stored.
+\item Worked with React Native to create UIs in mobile app.
+\item Helped coordinate frontend and backend.
+\end{tightemize}
+
+\runsubsection{LVLTestbank}
+\descript{| Backend Developer }
+\location{August 2018 - Present | New Brunswick, NJ}
+\begin{tightemize}
+\item Worked with MongoDB and express to manage store user information.
+\item Responsible for overall technical design and organization of project.
+\item Used paypal api to for e-commerce functionality.
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Google}
-\descript{| Software Engineering Intern }
-\location{May 2013 – Aug 2013 | Mountain View, CA}
-\begin{tightemize}
-\item Worked on the YouTube Captions team, in Javascript and Python to plan, to design and develop the full stack to add and edit Automatic Speech Recognition captions. In production.\item Created a backbone.js-like framework for the Captions editor.\end{tightemize}
-\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\runsubsection{Phabricator}
-\descript{| Open Source Contributor \& Team Leader}
-\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
+\section{Projects}
+\runsubsection{Gearheads}
+\descript{| Fullstack Mobile Developer}
+\location{August 2018 – Present | East Brunswick, NJ}
 \begin{tightemize}
-\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.\item I created the Meme generator and more in PHP and Shell.\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.\end{tightemize}
+\item Social media platform focused on organizing car meet ups.
+\item Designed user interface using sketch.
+\item Wrote significant parts of the front end using react.
+\end{tightemize}
+
+\runsubsection{Rutgers Course Searcher}
+\descript{| Fullstack Web Developer}
+\location{August 2018 – Present | East Brunswick, NJ}
+\begin{tightemize}
+\item Webapp that allows rutgers students to view, search, and personalize course data to make it easier to schedule classes.
+\item Used Rutgers API to parse schedule of classes information from rutgers api into postgresql database
+\item Wrote cron job to periodically keep course status updated and relevant.
+\end{tightemize}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
+%     HACKATHONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Hackathons}
+\runsubsection{Course Helper}
+\descript{| HackRU Spring 2018}
+\begin{tightemize}
+\item Allows Rutgers SAS students to find the optimal courses to fulfill their school requirements.
+\item Dynamic website was created using flask.
+\item Parsing course requirements and other backend work done using python.
+\end{tightemize}
 
-\section{Research}
-\runsubsection{Cornell Robot Learning Lab}
-\descript{| Researcher}
-\location{Jan 2014 – Jan 2015 | Ithaca, NY}
-Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  
-\sectionsep
+\runsubsection{BM\textunderscore{}Bot}
+\descript{| Pennapps XVII}
+\begin{tightemize}
+\item Created a simple reinforcement learning Starcraft II ai using google’s pysc2.
+\item Designed and implemented the policies the ai followed.
+\item In charge of unit creation and overall strategy.
+\end{tightemize}
 
-\runsubsection{Cornell Phonetics Lab}
-\descript{| Head Undergraduate Researcher}
-\location{Mar 2012 – May 2013 | Ithaca, NY}
-Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. 
-\sectionsep
+\runsubsection{Swoltrition}
+\descript{| PennApps XV}
+\begin{tightemize}
+\item An alexa skill that allows users to keep track of their daily macros hand free.
+\item Responsible for the storing the information users entered through utterances and information pulled from the usda api.
+\end{tightemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     AWARDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Awards} 
-\begin{tabular}{rll}
-2014	     & top 52/2500  & KPCB Engineering Fellow\\
-2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
-2013	     & National  & Jump Trading Challenge Finalist\\
-2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
-2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
-2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
-\end{tabular}
-\sectionsep
+% \section{Awards} 
+% \begin{tabular}{rll}
+% 2014	     & top 52/2500  & KPCB Engineering Fellow\\
+% 2014	     & 2\textsuperscript{nd} most points  & Google Code Jam, Qualification Round\\
+% 2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
+% 2013	     & National  & Jump Trading Challenge Finalist\\
+% 2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
+% 2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
+% 2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+% 2010     & National & Comp. Soc. of India's National Programming Contest\\
+% \end{tabular}
+% \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PUBLICATIONS
+%     SOCIETIES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Publications} 
-\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
-\bibliographystyle{abbrv}
-\bibliography{publications}
-\nocite{*}
+% \section{Societies} 
+
+% \begin{tabular}{rll}
+% 2014 	& top 12\%ile    & Tau Beta Pi Engineering Honor Society\\
+% 2014   & National   & The Global Leadership and Education Forum (tGELF)\\
+% 2012   &  National  & Golden Key International Honor Society\\
+% 2012   &  National   & National Society of Collegiate Scholars\\
+% \end{tabular}
+% \sectionsep
 
 \end{minipage} 
 \end{document}  \documentclass[]{article}
